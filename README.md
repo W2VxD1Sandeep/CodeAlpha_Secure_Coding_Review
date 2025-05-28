@@ -36,7 +36,7 @@ Key security topics addressed:
 - **SAST** tools – Static application security testing (e.g., SonarQube)
 
 🎓 What I Learned
-• Think like an attacker
-• Always validate user input
-• Automate security checks during development
-• Secure coding is not an extra task – it’s essential
+	•	Think like an attacker
+	•	Always validate user input
+	•	Automate security checks during development
+	•	Secure coding is not an extra task – it’s essential
