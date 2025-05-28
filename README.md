@@ -1,23 +1,42 @@
-# CodeAlpha_Secure_Coding_Review
+# 🔐 Secure Coding Review - Flask Web Application
 
-🚀 Internship Project at CodeAlpha – Secure Coding Review 🔐
+This project was developed during my internship at **CodeAlpha** to demonstrate secure coding practices in a real-world web application using **Python (Flask)**. It includes a presentation PDF and a Flask app that showcases how to prevent common security vulnerabilities in modern web development.
 
-During my internship at CodeAlpha, I worked on a Flask-based secure web application and created a presentation focusing on secure coding practices.
+## 📄 Project Overview
 
-This project involved identifying and mitigating common web vulnerabilities like:
-	•	🔐 SQL Injection (fixed with parameterized queries)
-	•	❌ Plaintext Passwords (secured using password hashing)
-	•	⚠️ Cross-Site Scripting (handled using output escaping)
-	•	🛡️ CSRF Attacks (protected via Flask-WTF)
+The main objective was to **review, identify, and fix security issues** in code while following industry-standard best practices.
 
-I also used tools like Bandit, Pylint, and SAST scanners to analyze code for vulnerabilities and ensure security best practices.
+Key security topics addressed:
+- Identify and fix vulnerabilities
+- Ensure compliance with secure coding standards
+- Prevent common exploits (e.g., XSS, SQLi, CSRF)
 
+## 💻 Application Features
 
-🔍 Key Takeaways:
-✅ Think like an attacker
-✅ Validate everything
-✅ Automate with tools
+- User Signup & Login System
+- Secure File Upload
+- Comment Form with Input Sanitization
+- User Bio Update
+- Security Mitigations Integrated
 
-I’m excited to apply these secure development skills in real-world projects!
+## 🔒 Security Measures Implemented
 
-#CyberSecurity #SecureCoding #Flask #Python #Internship #OWASP #WebSecurity #CodeAlpha #StudentProject #EthicalHacking
+| Vulnerability         | Fix Implemented                     
+
+| SQL Injection         | ✅ Parameterized Queries             
+| Plaintext Passwords   | ✅ Password Hashing                  
+| Cross-Site Scripting  | ✅ Output Escaping  
+| CSRF Attacks          | ✅ CSRF Protection via Flask-WTF     
+
+## 🧰 Tools & Techniques Used
+
+- **Bandit** – Static analysis for security issues in Python code
+- **Pylint** – Code quality checker for Python
+- **Flask-WTF** – Secure form handling and CSRF protection
+- **SAST** tools – Static application security testing (e.g., SonarQube)
+
+🎓 What I Learned
+• Think like an attacker
+• Always validate user input
+• Automate security checks during development
+• Secure coding is not an extra task – it’s essential
